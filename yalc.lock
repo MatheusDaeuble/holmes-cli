@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "holmes-cli": {
+      "version": "0.0.1",
+      "signature": "c51755c1c900b7ae86a3a61bad5e94bf",
+      "file": true
+    }
+  }
+}
