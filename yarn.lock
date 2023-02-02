@@ -328,6 +328,15 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+holmesjs-cli@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/holmesjs-cli/-/holmesjs-cli-0.0.1.tgz#2a55f6377c2c527a3e87c1e61672f5286eb35441"
+  integrity sha512-AQOzkq86a8p9B0W0hd2dLf4OzKOpcNW6WE4BZhgoABwweBZ3ug79v8KIxVY0RpY0oFX42UGsC/w8VbTDviozhA==
+  dependencies:
+    chalk "^3.0.0"
+    concurrently "^5.0.2"
+    nodemon "^2.0.2"
+
 hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"

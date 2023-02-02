@@ -1,14 +1,12 @@
 {
-  "name": "holmes-cli",
-  "version": "0.0.1",
+  "name": "holmesjs-cli",
+  "version": "0.0.4",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
-    "holmes:observer": "dist/index.js"
+    "holmes": "dist/index.js"
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -19,6 +17,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "concurrently": "^5.0.2",
+    "holmesjs-cli": "^0.0.1",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
